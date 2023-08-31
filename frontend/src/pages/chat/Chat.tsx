@@ -543,7 +543,7 @@ const Chat = () => {
                                     src={Azure}
                                     className={styles.chatIcon}
                                     aria-hidden="true"
-                                    style={{ height: "154px", width: "646px" }}
+                                    style={{ height: "77px", width: "323px" }}
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Welcome to HEINEKEN HR!</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>This chatbot is configured to answer questions about wellbeing.</h2>
@@ -616,7 +616,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)"
+                                            background: "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #007F2D 33.63%, #265A38 70.31%, #007F2D 100%)"
                                         },
                                         rootDisabled: {
                                             background: "#BDBDBD"
@@ -636,7 +636,7 @@ const Chat = () => {
                                         },
                                         root: {
                                             color: '#FFFFFF',
-                                            background: disabledButton() ? "#BDBDBD" : "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #0F6CBD 33.63%, #2D87C3 70.31%, #8DDDD8 100%)",
+                                            background: disabledButton() ? "#BDBDBD" : "radial-gradient(109.81% 107.82% at 100.1% 90.19%, #007F2D 33.63%, #265A38 70.31%, #007F2D 100%)",
                                             cursor: disabledButton() ? "" : "pointer"
                                         },
                                     }}
